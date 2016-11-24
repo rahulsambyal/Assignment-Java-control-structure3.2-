@@ -1,0 +1,22 @@
+package Java;
+import java.util.ArrayList; 
+import java.util.*;
+public class Java {
+	public static void main(String[] args)
+	{ 	
+	Scanner scan= new Scanner(System.in);
+	System.out.println("Enter the first String");
+	String s1= scan.nextLine();
+	System.out.println("Enter the Second String");
+	String s2= scan.nextLine();
+	boolean b= true;
+	if(s1.equals(s2))
+	System.out.println(b);
+	else {b= false;
+	System.out.println(b);
+	}
+	
+
+	}
+
+}
